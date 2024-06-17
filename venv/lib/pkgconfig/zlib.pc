@@ -1,0 +1,13 @@
+prefix=/Users/gupta/Desktop/sensor2-main/venv
+exec_prefix=/Users/gupta/Desktop/sensor2-main/venv
+libdir=/Users/gupta/Desktop/sensor2-main/venv/lib
+sharedlibdir=/Users/gupta/Desktop/sensor2-main/venv/lib
+includedir=/Users/gupta/Desktop/sensor2-main/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
