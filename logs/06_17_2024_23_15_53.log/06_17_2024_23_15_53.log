@@ -1,0 +1,15 @@
+[ 2024-06-17 23:15:54,299 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2024-06-17 23:15:54,325 ] 97 werkzeug - INFO -  * Debugger PIN: 140-771-386
+[ 2024-06-17 23:16:08,453 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2024 23:16:08] "GET / HTTP/1.1" 200 -
+[ 2024-06-17 23:16:17,248 ] 92 root - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[ 2024-06-17 23:16:17,248 ] 60 root - INFO - Exporting data from mongodb
+[ 2024-06-17 23:16:50,579 ] 69 root - INFO - Saving exported data into feature store file path: artifacts
+[ 2024-06-17 23:16:54,148 ] 98 root - INFO - Got the data from mongodb
+[ 2024-06-17 23:16:54,148 ] 101 root - INFO - Exited initiate_data_ingestion method of Data_Ingestion class
+[ 2024-06-17 23:16:54,149 ] 99 root - INFO - Entered initiate_data_transformation method of Data_Transformation class
+[ 2024-06-17 23:16:59,347 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2024 23:16:59] "[35m[1mGET /train HTTP/1.1[0m" 500 -
+[ 2024-06-17 23:16:59,393 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2024 23:16:59] "GET /train?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[ 2024-06-17 23:16:59,399 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2024 23:16:59] "GET /train?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[ 2024-06-17 23:16:59,473 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2024 23:16:59] "GET /train?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[ 2024-06-17 23:16:59,501 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2024 23:16:59] "[36mGET /train?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2024-06-17 23:18:59,998 ] 97 werkzeug - INFO -  * Detected change in '/Users/gupta/Desktop/sensor2-main/src/constant/__init__.py', reloading

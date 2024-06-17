@@ -1,0 +1,35 @@
+[ 2024-06-17 23:22:40,568 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2024-06-17 23:22:40,584 ] 97 werkzeug - INFO -  * Debugger PIN: 140-771-386
+[ 2024-06-17 23:22:47,042 ] 92 root - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[ 2024-06-17 23:22:47,043 ] 60 root - INFO - Exporting data from mongodb
+[ 2024-06-17 23:22:48,483 ] 69 root - INFO - Saving exported data into feature store file path: artifacts
+[ 2024-06-17 23:22:48,523 ] 98 root - INFO - Got the data from mongodb
+[ 2024-06-17 23:22:48,523 ] 101 root - INFO - Exited initiate_data_ingestion method of Data_Ingestion class
+[ 2024-06-17 23:22:48,523 ] 99 root - INFO - Entered initiate_data_transformation method of Data_Transformation class
+[ 2024-06-17 23:22:48,577 ] 39 root - INFO - Entered the save_object method of MainUtils class
+[ 2024-06-17 23:22:48,579 ] 45 root - INFO - Exited the save_object method of MainUtils class
+[ 2024-06-17 23:22:48,579 ] 145 root - INFO - Splitting training and testing input and target feature
+[ 2024-06-17 23:22:48,579 ] 156 root - INFO - Extracting model config file path
+[ 2024-06-17 23:22:48,579 ] 163 root - INFO - Extracting model config file path
+[ 2024-06-17 23:22:52,943 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2024 23:22:52] "GET / HTTP/1.1" 200 -
+[ 2024-06-17 23:22:59,139 ] 92 root - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[ 2024-06-17 23:22:59,139 ] 60 root - INFO - Exporting data from mongodb
+[ 2024-06-17 23:23:00,220 ] 69 root - INFO - Saving exported data into feature store file path: artifacts
+[ 2024-06-17 23:23:00,305 ] 98 root - INFO - Got the data from mongodb
+[ 2024-06-17 23:23:00,305 ] 101 root - INFO - Exited initiate_data_ingestion method of Data_Ingestion class
+[ 2024-06-17 23:23:00,305 ] 99 root - INFO - Entered initiate_data_transformation method of Data_Transformation class
+[ 2024-06-17 23:23:00,442 ] 39 root - INFO - Entered the save_object method of MainUtils class
+[ 2024-06-17 23:23:00,444 ] 45 root - INFO - Exited the save_object method of MainUtils class
+[ 2024-06-17 23:23:00,444 ] 145 root - INFO - Splitting training and testing input and target feature
+[ 2024-06-17 23:23:00,444 ] 156 root - INFO - Extracting model config file path
+[ 2024-06-17 23:23:00,444 ] 163 root - INFO - Extracting model config file path
+[ 2024-06-17 23:23:14,418 ] 197 root - INFO - Best found model on both training and testing dataset
+[ 2024-06-17 23:23:14,418 ] 202 root - INFO - Saving model at path: artifacts/model.pkl
+[ 2024-06-17 23:23:14,418 ] 39 root - INFO - Entered the save_object method of MainUtils class
+[ 2024-06-17 23:23:14,420 ] 45 root - INFO - Exited the save_object method of MainUtils class
+[ 2024-06-17 23:23:14,421 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2024 23:23:14] "GET /train HTTP/1.1" 200 -
+[ 2024-06-17 23:23:25,598 ] 197 root - INFO - Best found model on both training and testing dataset
+[ 2024-06-17 23:23:25,599 ] 202 root - INFO - Saving model at path: artifacts/model.pkl
+[ 2024-06-17 23:23:25,599 ] 39 root - INFO - Entered the save_object method of MainUtils class
+[ 2024-06-17 23:23:25,600 ] 45 root - INFO - Exited the save_object method of MainUtils class
+[ 2024-06-17 23:23:25,601 ] 97 werkzeug - INFO - 127.0.0.1 - - [17/Jun/2024 23:23:25] "GET /train HTTP/1.1" 200 -
